@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 html{ 
      margin: 12px;
      border: dotted 2px yellow; 
@@ -13,9 +14,10 @@ body{background-color: thistle;
           
 }
           h1{ 
-               font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-               color: maroon;
-          }
+               font-family: "Anta", sans-serif; color: palevioletred;
+  font-weight: 400;
+  font-style: normal
+  
           h2{ 
                font-family: Verdana, Geneva, Tahoma, sans-serif;
                font-size: 1.7rem;/* 27 pez */ 
