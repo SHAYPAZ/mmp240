@@ -34,12 +34,12 @@ width: fit-content;
     display: block;
 background-color: darkred;
 color:white ;
-padding: 35px;
+padding: 20px;
 border-radius: 0px;
 width: 10em;
 float: right;
 margin-top: 230px;
-text-align:end;
+text-align:center;
 text-decoration: none;
 text-transform: uppercase;
 }
