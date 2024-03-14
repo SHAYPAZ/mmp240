@@ -1,6 +1,19 @@
+*{ 
+    margin: o;
+    padding: 0;
+    border: 0;
+}
+
+
 body {
 background-color: white;
 
+}
+p{ 
+    margin: 1em;
+}
+a{
+    margin: 1em;
 }
 
 #wrapper {
@@ -18,16 +31,19 @@ background-position: right;
 width: 4000;
 height: 400px;
 padding: 5em;
-padding-top: 5em;
+padding-top: 4em;
+
 }
 h2 { 
 width: fit-content;
+padding left: 5em;
 
 }
 .start-texst{
 width: 300px;
 width: max-content;
 width: fit-content;
+
 
 }
 .bth{
@@ -43,3 +59,35 @@ text-align:center;
 text-decoration: none;
 text-transform: uppercase;
 }
+nav{ 
+    background-color: lightgray;
+    padding: 0.5em;
+}
+nav a { 
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{ 
+    text-decoration: underline;
+}
+nav li{ 
+    display: inline; 
+    margin-right: 2em;
+    font-family:serif; 
+}
+/***** main **** */
+
+.col-left{ 
+    float: right;
+    width: 48%;
+
+
+}.start-texst{
+    float: left;
+    width: 48%;
+}
+footer { 
+clear: both;
+padding: 2px;
+}
+
