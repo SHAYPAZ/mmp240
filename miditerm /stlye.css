@@ -1,5 +1,5 @@
 *{ 
-    margin: o;
+    margin: 0;
     padding: 0;
     border: 0;
 }
@@ -7,6 +7,7 @@
 
 body {
 background-color: white;
+
 
 }
 p{ 
@@ -21,22 +22,29 @@ width: 1200px;
 margin-left: auto;
 margin-right: auto;
 background-color: antiquewhite;
-padding: 1em;
+padding: 0em;
 }
 
 header{ 
 background-image: url("image\ friends.png");
 background-repeat: no-repeat;
-background-position: right;
+background-position: top right;
+background-size: cover;
 width: 4000;
 height: 400px;
 padding: 5em;
-padding-top: 4em;
+padding-top: 5px;
 
+}
+h1{ 
+   display: flex;
+   align-items: center;
+   justify-content:center
+   
 }
 h2 { 
 width: fit-content;
-padding left: 5em;
+padding-left: 5em;
 
 }
 .start-texst{
@@ -47,7 +55,7 @@ width: fit-content;
 
 }
 .bth{
-    display: block;
+display: block;
 background-color: darkred;
 color:white ;
 padding: 20px;
@@ -58,6 +66,7 @@ margin-top: 230px;
 text-align:center;
 text-decoration: none;
 text-transform: uppercase;
+
 }
 nav{ 
     background-color: lightgray;
@@ -79,12 +88,13 @@ nav li{
 
 .col-left{ 
     float: right;
-    width: 48%;
+    width: 40%;
+    text-align: center;
 
 
 }.start-texst{
     float: left;
-    width: 48%;
+    width: 40%;
 }
 footer { 
 clear: both;
