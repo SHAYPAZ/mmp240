@@ -26,7 +26,7 @@ padding: 0em;
 }
 
 header{ 
-background-image: url("image_friends.png");
+background-image: url("friends.png");
 background-repeat: no-repeat;
 background-position: top right;
 background-size: cover;
@@ -83,6 +83,13 @@ nav li{
     display: inline; 
     margin-right: 2em;
     font-family:serif; 
+}
+.flex-layout {
+    display:flex; flex-wrap: wrap;
+}
+.card{ 
+    width: 366px; 
+    padding: 2em
 }
 /***** main **** */
 
