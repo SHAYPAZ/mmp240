@@ -1,0 +1,94 @@
+
+/* Table of content 
+
+1. Reserts
+2.Page level style 
+3.Typography 
+4. Utlity style 
+5. Header and top navigation 
+6.Pogram Navigation 
+7. Homepage Content
+8. Pogram Page 
+9. Media querirs for large viewport 
+
+*/ 
+
+/* ******* 1. Reste ******* */ 
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+/* 2. Page level style */ 
+html{
+    font-size: 20px; /* root font size */ 
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.5em;
+    margin: 0.5;
+}
+
+#wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+/* ***** 3. Typography ***** */ 
+
+
+H1{ 
+    font-size: 1.5em;
+}
+
+/* **** 4. Utilites **** */ 
+
+.flex-container { 
+    display: flex;
+    justify-content: space-between;
+} 
+
+.larger-text{
+    font-size: larger;
+}
+
+.img-responsive{
+    width: 100%;
+}
+.float-right{
+    float: right;
+}
+
+/* ***** 5. Header and top navigation **** */ 
+header{
+    position: relative;
+}
+#top-menu{
+    /* display: none; */ 
+    width: 100%;
+    padding: 0.5;
+    border: solid 1px black;
+    background-color: white;
+    clear: right;
+    position: absolute;
+    right: 0;
+    top: 28px; 
+
+
+}
+#top-menu ul{
+list-style-type: none;
+width: 100%;
+padding:aouto;
+}
+
+/* ***** 6.Pogram Navigation ***** */ 
+
+
+/* ****** 7. Homepage Content ****** */ 
+
+/* ****** 8. Pogram Page ***** */ 
+
+/* **** 9. Media querirs for large viewport **** */ 
