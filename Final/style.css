@@ -28,7 +28,7 @@ html{
 body{
     font-family: sans-serif;
     line-height: 1.5em;
-    margin: 0.5;
+    margin: 0.5em;
 }
 
 #wrapper{
@@ -36,11 +36,21 @@ body{
     margin: 0 auto;
 
 }
+input{ 
+    border:solid 1px black;
+    padding: 3px;
+}
+
+p, h1, h2, h3, h4{
+    margin-bottom: 1em;
+}
+
 /* ***** 3. Typography ***** */ 
 
 
 H1{ 
     font-size: 1.5em;
+    line-height: 1em;
 }
 
 /* **** 4. Utilites **** */ 
@@ -80,16 +90,105 @@ header{
 }
 #top-menu ul{
 list-style-type: none;
-width: 100%;
-padding:aouto;
+
 }
 
 /* ***** 6.Pogram Navigation ***** */ 
 
+nav ul {
+list-style-type: none;
+}
+
+li.dropdown{
+    border-bottom: solid black;
+}
+
+li.dropdown ul { 
+display: none;
+}
+li.dropdown:hover ul{
+    display: block;
+}
+.dropdown a{
+display: block;
+padding: 5px;
+color: black;
+text-decoration:none ;
+}
+.dropdown li a {
+    color: gray;
+    
+}
+.dropdown li a:hover{
+    color: maroon;
+}
+.expand{
+    float:right;
+}
 
 
 /* ****** 7. Homepage Content ****** */ 
-
+.banner{ 
+    padding: 6em 2em;
+    background-image: url(); /*** add image * ***/
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2em  0em;
+}
+.banner a{
+    display: block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    text-shadow:2px 2px 2px #000;
+    background-color:rgba(0,0,0,0.5); 
+}
 /* ****** 8. Pogram Page ***** */ 
 
+
 /* **** 9. Media querirs for large viewport **** */ 
+@media (min-width:768px){
+
+    .program-nav ul{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .program-nav li{
+        width: 30%;
+        position: relative;
+        
+    }
+    .program-nav li li{
+        width: 100%;
+
+    }
+    .dropdown ul{
+        display: block;
+        position: absolute;
+        background-color: white;
+        border: solid 1px black;
+        width: 100%;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2em;
+
+    }
+    .news{
+        grid-column-start: 1 ;
+        grid-column-end: 4;
+    }
+    .event{
+        grid-column-start: 4;
+    }
+
+
+
+    }
+
+
+
+/* closing media query */ 
