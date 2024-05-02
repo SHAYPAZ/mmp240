@@ -92,6 +92,11 @@ header{
 list-style-type: none;
 
 }
+h1 a{
+    color: black;
+    
+
+}
 
 /* ***** 6.Pogram Navigation ***** */ 
 
@@ -120,7 +125,10 @@ text-decoration:none ;
     
 }
 .dropdown li a:hover{
-    color: maroon;
+    color: blue;
+}
+.dropdown{
+    z-index: 2;
 }
 .expand{
     float:right;
@@ -129,11 +137,13 @@ text-decoration:none ;
 
 /* ****** 7. Homepage Content ****** */ 
 .banner{ 
-    padding: 6em 2em;
+    
     background-image: url(); /*** add image * ***/
     background-repeat: no-repeat;
     background-size: cover;
     margin: 2em  0em;
+    position: relative;
+    border: solid 2px black;
 }
 .banner a{
     display: block;
@@ -143,6 +153,17 @@ text-decoration:none ;
     font-size: larger;
     text-shadow:2px 2px 2px #000;
     background-color:rgba(0,0,0,0.5); 
+}
+.banner a {
+    position: absolute;
+   bottom: 100px;
+   width: 80%;
+  left: 100px;
+  
+}
+.banner img{
+    width: 100%;
+    display: block;
 }
 /* ****** 8. Pogram Page ***** */ 
 
@@ -184,8 +205,6 @@ text-decoration:none ;
     .event{
         grid-column-start: 4;
     }
-
-
 
     }
 
