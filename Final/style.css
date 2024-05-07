@@ -98,6 +98,7 @@ h1 a{
 
 }
 
+
 /* ***** 6.Pogram Navigation ***** */ 
 
 nav ul {
@@ -204,6 +205,17 @@ text-decoration:none ;
     }
     .event{
         grid-column-start: 4;
+    }
+    #top-menu{
+        display: flex;
+        border: none;
+        position: static;
+    }
+    #top-menu ul {
+        display: flex;
+    }
+    #top-menu li{
+        margin-right: 1em;
     }
 
     }
