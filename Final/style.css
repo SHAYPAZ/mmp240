@@ -186,6 +186,11 @@ text-decoration:none ;
         width: 100%;
 
     }
+    .program{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 2em;
+    }
  
     .dropdown ul{
         display: block;
@@ -194,11 +199,7 @@ text-decoration:none ;
         border: solid 1px black;
         width: 100%;
     }
-    main{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 2em;
-
+  
     }
     #top-menu{
         display: flex;
@@ -213,10 +214,9 @@ text-decoration:none ;
     }
     .layout{
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr ;
+        grid-template-columns: 2fr 1fr  ;
         grid-column: 5em ;
 
-    }
     }
     
 
