@@ -182,7 +182,7 @@ text-decoration:none ;
     color: black;
     text-decoration: none;
 }
-.prgram-card { 
+.program-card { 
     background-color: transparent;
     transition-property: background-color box-shadow transfom; 
     transition-duration: 1s;
@@ -194,7 +194,6 @@ text-decoration:none ;
     transform: scale(1.02);
 
 }
-
 
 
 /* **** 9. Media querirs for large viewport **** */ 
