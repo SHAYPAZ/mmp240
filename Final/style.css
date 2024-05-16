@@ -176,9 +176,10 @@ text-decoration:none ;
 }
 .banner a {
     position: absolute;
-   bottom: 40%;
+   bottom: 50%;
    width: 70%;
   left: 15%;
+  
 
   
 }
