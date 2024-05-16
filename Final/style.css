@@ -99,9 +99,19 @@ header{
 
 
 }
+
+.banner a {
+    text-align: center;
+}
+
 #top-menu ul{
 list-style-type: none;
 
+}
+
+.program-card img {
+    height: 20vh;
+    width: 13em;
 }
 h1 a{
     color: black;
@@ -227,7 +237,7 @@ text-decoration:none ;
         width: 100%;
     }
   
-    }
+    
     #top-menu{
         display: flex;
         border: none;
@@ -245,7 +255,11 @@ text-decoration:none ;
         grid-column: 5em ;
 
     }
+    .material-symbols-outlined{
+        display:none;
+    }
 
+}
 
     
 
